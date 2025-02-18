@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-EMNLP-SCOI
 excerpt: 'This paper is about augmenting in-context example selection for machine translation via combination of syntactic and lexical information.'
 date: 2024-11-12
-venue: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing'
+venue: 'Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024 Main Conference)'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'https://aclanthology.org/2024.emnlp-main.555.pdf'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
