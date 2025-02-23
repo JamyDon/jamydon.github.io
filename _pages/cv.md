@@ -30,14 +30,6 @@ Education
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git -->
-  
-Skills
-======
-* C/C++
-* Python
-  * PyTorch
-  * Transformers
-  * NumPy
 
 Publications
 ======
@@ -60,3 +52,12 @@ Publications
 <!-- Service and leadership
 ======
 * Currently signed in to 43 different slack teams -->
+
+Service
+======
+* ACL Rolling Review October 2024 - Reviewer.
+
+Awards
+======
+* First prize of the 12th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC 2023) Shared Task 1: Chinese Grammatical Error Correction, 2023.
+* Second place of the Twenty-first China National Conference on Computational Linguistics (CCL 2022) Shared Task Track 4: "Multi-reference Multi-source Chinese Learner Text Correction", 2022.
