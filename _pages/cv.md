@@ -48,6 +48,16 @@ Publications
 * [Are Pre-trained Language Models Useful for Model Ensemble in Chinese Grammatical Error Correction?](https://aclanthology.org/2023.acl-short.77/)
   * **Chenming Tang**, Xiuyu Wu, Yunfang Wu
   * ACL 2023 (Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2023)
+
+Preprints
+======
+* [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://arxiv.org/abs/2408.08780)
+  * **Chenming Tang**, Zhixiang Wang, Hao Sun, Yunfang Wu
+  * arXiv:2408.08780 [cs.CL]
+  
+* [Evaluating the Capability of Large-scale Language Models on Chinese Grammatical Error Correction Task](https://arxiv.org/abs/2307.03972)
+  * Fanyi Qu, **Chenming Tang**, Yunfang Wu
+  * arXiv:2307.03972 [cs.CL]
   
 <!-- Talks
 ======
