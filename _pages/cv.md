@@ -54,6 +54,10 @@ Preprints
 * [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://arxiv.org/abs/2408.08780)
   * **Chenming Tang**, Zhixiang Wang, Hao Sun, Yunfang Wu
   * arXiv:2408.08780 [cs.CL]
+ 
+* [Lost in the Passage: Passage-level In-context Learning Does Not Necessarily Need a "Passage"](https://arxiv.org/abs/2502.10634)
+  * Hao Sun, **Chenming Tang**, Gengyang Li, Yunfang Wu
+  * arXiv:2502.10634 [cs.CL]
   
 * [Evaluating the Capability of Large-scale Language Models on Chinese Grammatical Error Correction Task](https://arxiv.org/abs/2307.03972)
   * Fanyi Qu, **Chenming Tang**, Yunfang Wu
