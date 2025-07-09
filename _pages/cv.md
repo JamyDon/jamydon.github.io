@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
 * M.S. in Computer Science, Peking University, 2027 (expected)
