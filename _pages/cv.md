@@ -12,22 +12,11 @@ Education
 * M.S. in Computer Science, Peking University, 2027 (expected)
 * B.S. in Computer Science, Peking University, 2024
 
-<!-- Work experience
+Internships
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git -->
+* Tencent, Research Intern, 2025 - 2026 (expected)
+  * Reinforcement learning
+  * Supervisor: Weijie Liu
 
 Publications
 ======
