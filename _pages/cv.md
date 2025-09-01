@@ -24,6 +24,10 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
+* [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://arxiv.org/abs/2408.08780)
+  * **Chenming Tang#**, Zhixiang Wang#, Hao Sun, Yunfang Wu
+  * EMNLP 2025 Findings (Findings of the Association for Computational Linguistics: EMNLP 2025)
+
 * [SCOI: Syntax-augmented Coverage-based In-context Example Selection for Machine Translation](https://aclanthology.org/2024.emnlp-main.555/)
   * **Chenming Tang**, Zhixiang Wang, Yunfang Wu
   * EMNLP 2024 (Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 2024)
@@ -38,10 +42,7 @@ Publications
 
 Preprints
 ======
-* [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://arxiv.org/abs/2408.08780)
-  * **Chenming Tang**, Zhixiang Wang, Hao Sun, Yunfang Wu
-  * arXiv:2408.08780 [cs.CL]
- 
+
 * [Lost in the Passage: Passage-level In-context Learning Does Not Necessarily Need a "Passage"](https://arxiv.org/abs/2502.10634)
   * Hao Sun, **Chenming Tang**, Gengyang Li, Yunfang Wu
   * arXiv:2502.10634 [cs.CL]
