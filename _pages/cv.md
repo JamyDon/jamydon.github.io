@@ -71,7 +71,7 @@ Preprints
 
 Services
 ======
-* Reviewer: ACL Rolling Review October 2024.
+* Reviewer: ACL Rolling Review October 2024; ACL Rolling Review October 2025.
 
 Teaching
 ======
