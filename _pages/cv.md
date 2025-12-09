@@ -26,7 +26,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
-* [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://arxiv.org/abs/2408.08780)
+* [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://aclanthology.org/2025.findings-emnlp.3/)
   * **Chenming Tang**, Zhixiang Wang, Hao Sun, Yunfang Wu
   * **Findings of EMNLP 2025** (Findings of the Association for Computational Linguistics: EMNLP 2025)
 
