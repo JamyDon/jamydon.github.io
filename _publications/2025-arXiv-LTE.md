@@ -7,4 +7,4 @@ date: 2025-10-30
 
 **Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu\
 _arXiv preprint arXiv:2510.26109_\
-[Preprint](https://arxiv.org/abs/2510.26109)
+[Preprint](https://arxiv.org/abs/2510.26109) | [Code](https://anonymous.4open.science/r/Learning-from-Trial-and-Error)
