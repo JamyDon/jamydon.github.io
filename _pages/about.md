@@ -65,3 +65,5 @@ Teaching
 /etc
 =====
 I aim to pursue a career in **academia** rather than industry. I prioritize intellectual freedom over short-term commercial outcomes. I also place a high value on **work-life balance**, as I believe sustainable pace and well-being are essential for durable, creative, and thoughtful research.
+
+When I am not doing research, I enjoy investment, practice the art of Chinese calligraphy (中國書法), and listen to classical music by Bach, Vivaldi, Brahms, Rachmaninoff, et al.
