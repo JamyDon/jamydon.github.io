@@ -62,6 +62,6 @@ Teaching
 ======
 * Teaching Assistant, Introduction to Computing (C), Peking University, Spring 2025.
 
-Contact
+/etc
 =====
-Email: tangchernmyun [at] gmail.com
+I aim to pursue a career in **academia** rather than industry. I prioritize intellectual freedom over short-term commercial outcomes. I also place a high value on **work-life balance**, as I believe sustainable pace and well-being are essential for durable, creative, and thoughtful research.
