@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,15 +9,10 @@ redirect_from:
 
 Education
 ======
-* M.S. in Computer Science, Peking University, 2027 (expected)
-  * Supervisor: Yunfang Wu
-* B.S. in Computer Science, Peking University, 2024
+* M.S. in Computer Science, Peking University, 2024 - 2027 (expected)
+  * Advisor: Assoc. Prof. Yunfang Wu
+* B.S. in Computer Science, Peking University, 2020 - 2024
   * GPA: 3.72/4.00
-
-Internships
-======
-* Tencent, Research Intern, 2025 - 2026 (expected)
-  * Reinforcement learning
 
 Publications
 ======
@@ -69,7 +64,7 @@ Publications
   * Fanyi Qu, **Chenming Tang**, Yunfang Wu
   * _arXiv preprint arXiv:2307.03972_
 
-\*Equal Contribution.
+\* Equal Contribution.
   
 <!-- Talks
 ======
@@ -87,16 +82,19 @@ Publications
 ======
 * Currently signed in to 43 different slack teams -->
 
-Services
+Honors and Awards
 ======
-* Reviewer: ACL Rolling Review October 2024; ACL Rolling Review October 2025.
+* **Outstanding Graduate**, Peking University, 2024.
+* **Exceptional Award for Academic Innovation**, Peking University, 2023.
+* **First prize**, the 12th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC 2023) Shared Task 1: "Chinese Grammatical Error Correction", 2023.
+* **Second place**, the 21st China National Conference on Computational Linguistics (CCL 2022) Shared Task Track 4: "Multi-reference Multi-source Chinese Learner Text Correction", 2022.
 
 Teaching
 ======
-* Teaching Assistant, Introduction to Computing (C) 2025 spring, Peking University.
-
-Honors and Awards
+* Teaching Assistant, Introduction to Computing (C), Peking University, Spring 2025.
+  * Instructor: Prof. Zhifang Sui & Assoc. Prof. Yunfang Wu
+ 
+Standardized Tests
 ======
-* Outstanding Graduate, Peking University, 2024.
-* First prize of the 12th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC 2023) Shared Task 1: Chinese Grammatical Error Correction, 2023.
-* Second place of the Twenty-first China National Conference on Computational Linguistics (CCL 2022) Shared Task Track 4: "Multi-reference Multi-source Chinese Learner Text Correction", 2022.
+* **TOEFL iBT:** 111 (R:30, L:28, S:23, W:30)
+* **GRE General Test:** 336 (V:166, Q:170, AWA:3.5)
