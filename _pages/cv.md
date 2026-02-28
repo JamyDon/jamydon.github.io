@@ -65,6 +65,32 @@ Publications
   * _arXiv preprint arXiv:2307.03972_
 
 \* Equal Contribution.
+
+Research Experience
+======
+* **Reinforcement Fine-tuning of Language Models (LMs)**, Tencent & Peking University, 2025 - Present.
+  * Advised by Dr. Weijie Liu & Assoc. Prof. Yunfang Wu.
+  * Formulated exploration stagnation as a key challenge for on-policy reinforcement fine-tuning of LMs.
+  * Designed LTE, a mistake-hinting mechanism that mitigates exploration stagnation and enhances both exploitation and exploration, significantly boosting the performance of post-trained LMs (under review).
+
+* **Real-time Knowledge Editing for LMs**, Peking University, 2024 - 2025.
+  * Advised by Assoc. Prof. Yunfang Wu.
+  * Pinpointed key gaps of evaluation and approaches in real-time and real-world knowledge editing.
+  * Led the development of CRAFT, a dynamic dataset for real-time and real-world knowledge editing.
+  * Proposed KEDAS, a novel self-adaptive paradigm of aligning LMs with real-time and real-world knowledge editing, exhibiting superior performance on both KEDAS and mainstream benchmarks compared to existing methods (under review).
+  * Mentored two students on dataset construction, baseline reproduction, and manuscript development.
+
+* **Prompting and In-context Learning (ICL) for LMs**, Peking University, 2023 - 2024.
+  * Advised by Assoc. Prof. Yunfang Wu.
+  * Proposed the use of syntactic similarity for in-context demonstration selection in grammatical error correction (GEC), establishing its superiority over traditional semantic-based methods (NAACL 2024).
+  * Introduced a novel ICL demonstration selection mechanism for machine learning that combines syntactic coverage and semantic overlap, yielding leading performance across six translation directions (EMNLP 2024).
+  * Demonstrated a proper prompt format without well-designed descriptions is effective enough to achieve promising performance across 10 NLP tasks. Collaborated with and advised a student in data pre-processing and experiments on a broad range of tasks (EMNLP 2025 Findings).
+
+* **Grammatical Error Correction (GEC)**, Peking University, 2022 - 2023.
+  * Advised by Assoc. Prof. Yunfang Wu.
+  * Developed three ensemble algorithms leveraging pre-trained LMs and demonstrated perplexity does not necessarily correlate with GEC performance.
+  * Highlighted that human-annotated ground truth references in GEC datasets are far from sufficient and there existed a gap between a grammatically correct sentence and an idiomatic one (ACL 2023 Short Paper).
+  * Won second place of CCL 2022 Shared Task 4 (Multi-reference Multi-source Chinese Learner Text Correction) and first prize of NLPCC 2023 Shared Task 1 (Chinese Grammatical Error Correction).
   
 <!-- Talks
 ======
