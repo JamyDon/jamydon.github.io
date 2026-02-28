@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Chenming Tang – a Master's student in Computer Science at Peking University. Before that, I got my Bachelor's degree at Peking University. My research spans various facets of NLP, including grammatical error correction (GEC), machine translation (MT), in-context learning (ICL), knowledge editing, reinforcement fine-tuning for language models.
+Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP, including grammatical error correction (GEC), machine translation (MT), in-context learning (ICL), knowledge editing, reinforcement fine-tuning for language models.
 
-👋👋👋**I’m actively seeking a summer research internship for Summer 2026 & a PhD opportunity for Fall 2027, and I’d love to connect with like-minded academic researchers.** For an in-depth overview of my background and accomplishments, please feel free to check out **[my CV](https://jamydon.github.io/cv/)** and **[contact me](https://jamydon.github.io/contact/)**.
+**I’m actively seeking a summer research internship for Summer 2026 & a PhD opportunity for Fall 2027, and I’d love to connect with like-minded academic researchers.** For an in-depth overview of my background and accomplishments, please feel free to check out **[my CV](https://jamydon.github.io/cv/)** and **[contact me](https://jamydon.github.io/contact/)**.
 
 Education
 ======
@@ -66,4 +66,4 @@ Teaching
 =====
 I aim to pursue a career in **academia** rather than industry. I prioritize intellectual freedom over short-term commercial outcomes. I also place a high value on **work-life balance**, as I believe sustainable pace and well-being are essential for durable, creative, and thoughtful research.
 
-When I am not doing research, I enjoy investment, practice the art of Chinese calligraphy (中國書法), and listen to classical music by Bach, Vivaldi, Brahms, Rachmaninoff, et al.
+When I am not doing research, I enjoy investment, practice the art of [Chinese calligraphy](https://en.wikipedia.org/wiki/Chinese_calligraphy) (中國書法), and listen to classical music by Vivaldi, Bach, Brahms, Rachmaninoff, _et al._ One of my favorite music work these months is Symphony No. 4 by Brahms.
