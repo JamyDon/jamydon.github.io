@@ -21,7 +21,7 @@ repository               : "JamyDon/jamydon.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_20240805.jpg"
+  avatar           : "CNTower.jpg"
   name             : "Chenming Tang"
   pronouns         : # example: "she/her"  
   bio              : "Master's student in computer science. Working on Computational Linguistics (CL) & Natural Language Processing (NLP)."
