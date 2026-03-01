@@ -51,19 +51,15 @@ Internship
 ======
 * Research Intern in Tencent HY, July 2025 - Present.
  
-Awards
+Honors and Awards
 ======
 * **Outstanding Graduate**, Peking University, 2024.
 * **Exceptional Award for Academic Innovation**, Peking University, 2023.
 * **First prize**, NLPCC 2023 Shared Task 1 (Chinese Grammatical Error Correction), 2023.
 * **Second place**, CCL 2022 Shared Task 4 (Multi-reference Multi-source Chinese Learner Text Correction), 2022.
 
-Teaching
-======
-* Teaching Assistant, Introduction to Computing (C), Peking University, Spring 2025.
-
 /etc
 =====
 I aim to pursue a career in **academia** rather than industry. I prioritize intellectual freedom over short-term commercial outcomes. I also place a high value on **work-life balance**, as I believe sustainable pace and well-being are essential for durable, creative, and thoughtful research.
 
-When I am not doing research, I enjoy investment, practice the art of [Chinese calligraphy](https://en.wikipedia.org/wiki/Chinese_calligraphy) (中國書法), and listen to classical music by Vivaldi, Bach, Brahms, Rachmaninoff, _et al._ One of my favorite music work these months is Symphony No. 4 by Brahms.
+When I am not doing research, I enjoy investment, practice the art of [Chinese calligraphy](https://en.wikipedia.org/wiki/Chinese_calligraphy) (中國書法), and listen to classical music by Vivaldi, Bach, Brahms, Rachmaninoff, _et al._ One of my favorite music works these months is Symphony No. 4 by Brahms.
