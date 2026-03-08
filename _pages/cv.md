@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<p>Download <a href="https://jamydon.github.io/files/CV.pdf">PDF Version</a></p></p>
+<p>Download <a href="https://jamydon.github.io/files/CV.pdf">PDF Version</a></p>
 
 Education
 ======
