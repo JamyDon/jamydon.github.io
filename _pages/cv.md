@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+<p>Download <a href="https://jamydon.github.io/files/CV.pdf">PDF Version</a></p></p>
+
 Education
 ======
 * M.S. in Computer Science, Peking University, 2024 - 2027 (expected)
