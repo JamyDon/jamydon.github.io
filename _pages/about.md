@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and am currently interested in agentic reinforcement learning, LM memory, LM personalization, and financial application of LMs.
+Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP, and I am currently interested in agentic reinforcement learning, LM memory, LM personalization, and financial application of LMs.
 
 **I’m actively seeking a summer research internship for Summer 2026 & a PhD opportunity for Fall 2027, and I’d love to connect with like-minded academic researchers.** For an in-depth overview of my background and accomplishments, please feel free to check out **[my CV](https://jamydon.github.io/cv/)** and **[contact me](https://jamydon.github.io/contact/)**.
 
