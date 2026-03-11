@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Chenming \"Jamy\" Tang"
+title                    : "Chenming (Jamy) Tang"
 title_separator          : "-"
 name                     : &name "Chenming Tang"
 description              : &description "Master's student in computer science at Peking University. Working on Computational Linguistics (CL) & Natural Language Processing (NLP)."
