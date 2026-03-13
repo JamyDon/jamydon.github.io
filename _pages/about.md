@@ -53,6 +53,7 @@ Honors and Awards
 ======
 * **Outstanding Graduate**, Peking University, 2024.
 * **Exceptional Award for Academic Innovation**, Peking University, 2023.
+* **Merit Student**, Peking University, 2023.
 * **First prize**, NLPCC 2023 Shared Task 1 (Chinese Grammatical Error Correction), 2023.
 * **Second place**, CCL 2022 Shared Task 4 (Multi-reference Multi-source Chinese Learner Text Correction), 2022.
 
