@@ -26,7 +26,7 @@ Selected Publications
   * _arXiv preprint arXiv:2510.26109_
  
 * [Aligning Language Models with Real-time Knowledge Editing](https://arxiv.org/abs/2508.01302)
-  * **Chenming Tang**, Yutong Yang, Kexue Wang, Yunfang Wu. 2025
+  * **Chenming Tang\***, Yutong Yang\*, Kexue Wang, Yunfang Wu. 2025
   * _arXiv preprint arXiv:2508.01302_
 
 * [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://aclanthology.org/2025.findings-emnlp.3/)
