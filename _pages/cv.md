@@ -49,7 +49,7 @@ Publications
   * _arXiv preprint arXiv:2510.26109_
  
 * [Aligning Language Models with Real-time Knowledge Editing](https://arxiv.org/abs/2508.01302)
-  * **Chenming Tang**, Yutong Yang, Kexue Wang, Yunfang Wu. 2025
+  * **Chenming Tang\***, Yutong Yang\*, Kexue Wang, Yunfang Wu. 2025
   * _arXiv preprint arXiv:2508.01302_
 
 * [Think Outside the Policy: In-Context Steered Policy Optimization](https://arxiv.org/abs/2510.26519)
