@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make LMs better assistants for human in various aspects. I am currently interested in agentic reinforcement learning, LM memory, LM personalization, and financial application of LMs.
 
-**I’m actively seeking a summer research internship for Summer 2026 & a PhD opportunity for Fall 2027, and I’d love to connect with like-minded academic researchers, especially those from US, SG, or HK.** For an in-depth overview of my background and accomplishments, please feel free to check out **[my CV](http://jamydon.github.io/cv/)** and **[contact me](http://jamydon.github.io/contact/)**.
+**I’m actively seeking a PhD opportunity for Fall 2027 (US, SG and HK preferred), and I’d love to connect with like-minded academic researchers.** For an in-depth overview of my background and accomplishments, please feel free to check out **[my CV](http://jamydon.github.io/cv/)** and **[contact me](http://jamydon.github.io/contact/)**.
 
 Education
 ======
@@ -61,4 +61,4 @@ Honors and Awards
 =====
 I aim to pursue a career in **academia** rather than industry. I prioritize intellectual freedom over short-term commercial outcomes. I also place a high value on **work-life balance**, as I believe sustainable pace and well-being are essential for durable, creative, and thoughtful research.
 
-When I am not doing research, I enjoy investment, practice the art of [Chinese calligraphy](https://en.wikipedia.org/wiki/Chinese_calligraphy) (中國書法), and listen to music by [Vivaldi](https://en.wikipedia.org/wiki/Antonio_Vivaldi), [Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach), [Brahms](https://en.wikipedia.org/wiki/Johannes_Brahms), [Rachmaninoff](https://en.wikipedia.org/wiki/Sergei_Rachmaninoff), _et al._ One of my favorite music works these months is [Symphony No. 4 by Brahms](https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)).
+When I am not doing research, I enjoy investment, practice the art of [Chinese calligraphy](https://en.wikipedia.org/wiki/Chinese_calligraphy), and listen to music by [Vivaldi](https://en.wikipedia.org/wiki/Antonio_Vivaldi), [Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach), [Brahms](https://en.wikipedia.org/wiki/Johannes_Brahms), [Rachmaninoff](https://en.wikipedia.org/wiki/Sergei_Rachmaninoff), _et al._ One of my favorite music works these months is [Symphony No. 4 by Brahms](https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)).
