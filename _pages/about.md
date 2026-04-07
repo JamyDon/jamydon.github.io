@@ -23,11 +23,11 @@ Selected Publications
 
 * [Do Not Step Into the Same River Twice: Learning to Reason from Trial and Error](https://arxiv.org/abs/2510.26109)
   * **Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu
-  * _arXiv preprint arXiv:2510.26109_
+  * **ACL 2026** (_Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026_)
  
 * [Aligning Language Models with Real-time Knowledge Editing](https://arxiv.org/abs/2508.01302)
   * **Chenming Tang\***, Yutong Yang\*, Kexue Wang, Yunfang Wu. 2025
-  * _arXiv preprint arXiv:2508.01302_
+  * **ACL 2026** (_Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026_)
 
 * [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://aclanthology.org/2025.findings-emnlp.3/)
   * **Chenming Tang\***, Zhixiang Wang\*, Hao Sun, Yunfang Wu
