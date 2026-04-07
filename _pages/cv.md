@@ -33,6 +33,10 @@ Publications
 * [Aligning Language Models with Real-time Knowledge Editing](https://arxiv.org/abs/2508.01302)
   * **Chenming Tang\***, Yutong Yang\*, Kexue Wang, Yunfang Wu. 2025
   * **ACL 2026** (_Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026_)
+ 
+* [Think Outside the Policy: In-Context Steered Policy Optimization](https://arxiv.org/abs/2510.26519)
+  * Hsiu-Yuan Huang\*, **Chenming Tang\***, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu
+  * **Findings of ACL 2026** (_Findings of the Association for Computational Linguistics: ACL 2026_)
 
 * [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://aclanthology.org/2025.findings-emnlp.3/)
   * **Chenming Tang\***, Zhixiang Wang\*, Hao Sun, Yunfang Wu
@@ -51,10 +55,6 @@ Publications
   * **ACL 2023** (_Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2023_)
 
 **Preprints**
-
-* [Think Outside the Policy: In-Context Steered Policy Optimization](https://arxiv.org/abs/2510.26519)
-  * Hsiu-Yuan Huang\*, **Chenming Tang\***, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu
-  * _arXiv preprint arXiv:2510.26519_
  
 * [ORBIT: On-policy Exploration-Exploitation for Controllable Multi-Budget Reasoning](https://arxiv.org/abs/2601.08310)
   * Kun Liang, Clive Bai, Xin Xu, **Chenming Tang**, Sanwoo Lee, Weijie Liu, Saiyong Yang, Yunfang Wu
