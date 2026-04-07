@@ -24,7 +24,15 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
 
-**Rendered Publications**
+**Refereed Publications**
+
+* [Do Not Step Into the Same River Twice: Learning to Reason from Trial and Error](https://arxiv.org/abs/2510.26109)
+  * **Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu
+  * **ACL 2026** (_Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026_)
+ 
+* [Aligning Language Models with Real-time Knowledge Editing](https://arxiv.org/abs/2508.01302)
+  * **Chenming Tang\***, Yutong Yang\*, Kexue Wang, Yunfang Wu. 2025
+  * **ACL 2026** (_Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026_)
 
 * [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://aclanthology.org/2025.findings-emnlp.3/)
   * **Chenming Tang\***, Zhixiang Wang\*, Hao Sun, Yunfang Wu
@@ -43,14 +51,6 @@ Publications
   * **ACL 2023** (_Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2023_)
 
 **Preprints**
-
-* [Do Not Step Into the Same River Twice: Learning to Reason from Trial and Error](https://arxiv.org/abs/2510.26109)
-  * **Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu
-  * _arXiv preprint arXiv:2510.26109_
- 
-* [Aligning Language Models with Real-time Knowledge Editing](https://arxiv.org/abs/2508.01302)
-  * **Chenming Tang\***, Yutong Yang\*, Kexue Wang, Yunfang Wu. 2025
-  * _arXiv preprint arXiv:2508.01302_
 
 * [Think Outside the Policy: In-Context Steered Policy Optimization](https://arxiv.org/abs/2510.26519)
   * Hsiu-Yuan Huang\*, **Chenming Tang\***, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu
