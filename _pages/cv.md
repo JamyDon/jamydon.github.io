@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Last updated: March 2026
+Last updated: April 2026
 
 <p>Download <a href="https://jamydon.github.io/files/CV.pdf">PDF</a></p>
 
