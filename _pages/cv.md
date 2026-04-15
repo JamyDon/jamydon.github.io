@@ -72,16 +72,20 @@ Publications
 
 Research Experience
 ======
-* **Reinforcement Fine-tuning of Language Models (LMs)**, Tencent & Peking University, 2025 - Present.
+* **Reinforcement Fine-tuning of Language Models (LMs)**, 2025 - Present.
+  * Tencent & Peking University
   * Advised by Dr. Weijie Liu & Assoc. Prof. Yunfang Wu.
 
-* **Real-time Knowledge Editing for LMs**, Peking University, 2024 - 2025.
+* **Real-time Knowledge Editing for LMs**, 2024 - 2025.
+  * Peking University
   * Advised by Assoc. Prof. Yunfang Wu.
 
-* **Prompting and In-context Learning (ICL) for LMs**, Peking University, 2023 - 2024.
+* **Prompting and In-context Learning (ICL) for LMs**, 2023 - 2024.
+  * Peking University
   * Advised by Assoc. Prof. Yunfang Wu.
 
-* **Grammatical Error Correction (GEC)**, Peking University, 2022 - 2023.
+* **Grammatical Error Correction (GEC)**, 2022 - 2023.
+  * Peking University
   * Advised by Assoc. Prof. Yunfang Wu.
   
 <!-- Talks
