@@ -13,7 +13,7 @@ Last updated: April 2026
 
 Education
 ======
-* M.S. in Computer Science, Peking University, 2024 - 2027 (expected)
+* M.S. (Academic) in Computer Science, Peking University, 2024 - 2027 (expected)
   * Advisor: Assoc. Prof. Yunfang Wu
 * B.S. in Computer Science, Peking University, 2020 - 2024
   * GPA: 3.72/4.00
