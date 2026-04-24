@@ -14,7 +14,7 @@ Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pk
 Education
 ======
 
-* M.S. in Computer Science, Peking University, 2024 - Present.
+* M.S. (Academic) in Computer Science, Peking University, 2024 - Present.
 * B.S. in Computer Science, Peking University, 2020 - 2024.
 
 Selected Publications
