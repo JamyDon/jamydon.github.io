@@ -20,9 +20,6 @@ Education
 
 Publications
 ======
-<!-- <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
 
 **Refereed Publications**
 
@@ -87,22 +84,6 @@ Research Experience
 * **Grammatical Error Correction (GEC)**, 2022 - 2023.
   * Peking University
   * Advised by Assoc. Prof. Yunfang Wu.
-  
-<!-- Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
-  
-<!-- Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-<!-- Service and leadership
-======
-* Currently signed in to 43 different slack teams -->
 
 Honors and Awards
 ======
