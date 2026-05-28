@@ -1,0 +1,96 @@
+/* ==========================================================================
+   THEME - Light/Dark Mode CSS Custom Properties
+   ========================================================================== */
+
+/*
+   Light theme (default)
+   ========================================================================== */
+
+:root {
+  --bg-color: #fff;
+  --text-color: #494e52;
+  --heading-color: #363b3f;
+  --border-color: #e8e8e8;
+  --light-border-color: #f2f2f2;
+  --link-color: #52adc8;
+  --link-color-hover: #3d8296;
+  --link-color-visited: #7fc3d6;
+  --masthead-bg: #fff;
+  --masthead-link-color: #7a8288;
+  --masthead-link-color-hover: #5c6064;
+  --footer-bg: #e8e8e8;
+  --footer-text-color: #6c7279;
+  --footer-border-color: #bcc0c4;
+  --code-bg: #fafafa;
+  --nav-btn-bg: #7a8288;
+  --greedy-nav-bg: #fff;
+}
+
+/*
+   Dark theme
+   ========================================================================== */
+
+html[data-theme="dark"] {
+  --bg-color: #1a1a2e;
+  --text-color: #e0e0e0;
+  --heading-color: #f0f0f0;
+  --border-color: #2a2a4a;
+  --light-border-color: #252545;
+  --link-color: #6ec6e0;
+  --link-color-hover: #9ddaec;
+  --link-color-visited: #5ba8c0;
+  --masthead-bg: #16213e;
+  --masthead-link-color: #c0c4c8;
+  --masthead-link-color-hover: #e0e4e8;
+  --footer-bg: #0f3460;
+  --footer-text-color: #c0c4c8;
+  --footer-border-color: #1a4a7a;
+  --code-bg: #2a2a3e;
+  --nav-btn-bg: #2a4a7a;
+  --greedy-nav-bg: #16213e;
+}
+
+/*
+   Theme toggle button
+   ========================================================================== */
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--masthead-bg);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.6rem;
+  font-size: 1.2rem;
+  color: var(--masthead-link-color);
+  border-radius: 4px;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  z-index: 100;
+  line-height: 1;
+
+  &:hover {
+    color: var(--masthead-link-color-hover);
+    background-color: var(--border-color);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/*
+   Smooth transitions for theme change
+   ========================================================================== */
+
+body,
+.masthead,
+.greedy-nav,
+.page__footer,
+.sidebar {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+a {
+  transition: color 0.3s ease;
+}

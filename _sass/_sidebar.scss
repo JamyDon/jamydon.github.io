@@ -95,7 +95,7 @@
 
     @include breakpoint($large) {
       padding: 5px;
-      border: 1px solid $border-color;
+      border: 1px solid var(--border-color);
     }
   }
 }
@@ -188,9 +188,9 @@
   margin-top: 15px;
   padding: 10px;
   list-style-type: none;
-  border: 1px solid $border-color;
+  border: 1px solid var(--border-color);
   border-radius: $border-radius;
-  background: #fff;
+  background: var(--bg-color);
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
@@ -214,7 +214,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: $border-color transparent;
+    border-color: var(--border-color) transparent;
     z-index: 0;
 
     @include breakpoint($large) {
@@ -231,7 +231,7 @@
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
-    border-color: #fff transparent;
+    border-color: var(--bg-color) transparent;
     z-index: 1;
 
     @include breakpoint($large) {

@@ -88,7 +88,7 @@
       border-radius: 0;
 
       &:hover {
-        color: $link-color-hover;
+        color: var(--link-color-hover);
       }
 
       &.current {
@@ -136,7 +136,7 @@
     border-radius: $border-radius;
 
     &:hover {
-      color: $link-color-hover;
+      color: var(--link-color-hover);
     }
 
     &:first-child {
@@ -175,17 +175,17 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: var(--greedy-nav-bg);
 
   a {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: $masthead-link-color;
+    color: var(--masthead-link-color);
     text-decoration: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: var(--masthead-link-color-hover);
     }
   }
 
@@ -196,7 +196,7 @@
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: var(--nav-btn-bg);
     color: #fff;
     cursor: pointer;
     z-index: 100;
@@ -257,9 +257,9 @@
     right: 0;
     margin-top: 15px;
     padding: 5px;
-    border: 1px solid $border-color;
+    border: 1px solid var(--border-color);
     border-radius: $border-radius;
-    background: #fff;
+    background: var(--greedy-nav-bg);
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
@@ -268,8 +268,8 @@
       font-size: $type-size-5;
 
       &:hover {
-        color: $masthead-link-color-hover;
-        background: mix(#fff, $primary-color, 75%);
+        color: var(--masthead-link-color-hover);
+        background: var(--border-color);
       }
     }
 
@@ -281,7 +281,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $border-color transparent;
+      border-color: var(--border-color) transparent;
       display: block;
       z-index: 0;
     }
@@ -294,7 +294,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff transparent;
+      border-color: var(--greedy-nav-bg) transparent;
       display: block;
       z-index: 1;
     }

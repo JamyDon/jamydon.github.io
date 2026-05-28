@@ -11,7 +11,8 @@ body {
   margin: 0;
   padding: $masthead-height 0 0;
   padding-bottom: 9em;
-  color: $text-color;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -26,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
   font-family: $header-font-family;
   font-weight: bold;
+  color: var(--heading-color);
 }
 
 h1 {
@@ -140,8 +142,8 @@ td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
   font-size: $type-size-6;
-  background: $code-background-color;
-  border: 1px solid $lighter-gray;
+  background: var(--code-bg);
+  border: 1px solid var(--border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
@@ -157,7 +159,7 @@ hr {
   display: block;
   margin: 1em 0;
   border: 0;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border-color);
 }
 
 /* lists */
