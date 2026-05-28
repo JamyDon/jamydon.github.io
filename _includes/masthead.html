@@ -21,6 +21,21 @@
     </div>
   </div>
 </div>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="var d=document.documentElement,c=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',c);localStorage.setItem('theme',c);this.querySelector('i').className=c==='dark'?'fas fa-sun':'fas fa-moon'">
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
   <i class="fas fa-moon"></i>
 </button>
+<script>
+(function(){
+  var btn = document.getElementById('theme-toggle');
+  btn.addEventListener('click', function(e) {
+    e.stopPropagation();
+    var d = document.documentElement;
+    var c = d.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    d.setAttribute('data-theme', c);
+    localStorage.setItem('theme', c);
+    btn.querySelector('i').className = c === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+  }, true);
+  var theme = document.documentElement.getAttribute('data-theme');
+  if (theme === 'dark') btn.querySelector('i').className = 'fas fa-sun';
+})();
+</script>
