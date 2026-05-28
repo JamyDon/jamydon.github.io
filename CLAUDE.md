@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Personal academic website for Chenming Tang, deployed at jamydon.github.io via GitHub Pages. Built with Jekyll on the AcademicPages template (Minimal Mistakes fork). Only 4 pages are active: Home (about), CV, Publications, and Contact.
+Personal academic website for Chenming Tang, deployed at jamydon.online (custom domain) via GitHub Pages. Built with Jekyll on the AcademicPages template (Minimal Mistakes fork). Only 4 pages are active: Home (about), CV, Publications, and Contact.
 
 ## Build & Development
 
@@ -67,11 +67,16 @@ SCSS in `_sass/`, compiled via `assets/css/main.scss`. Key variables in `_variab
 Colors use CSS custom properties defined in `_sass/_theme.scss`. Light values on `:root`, dark overrides on `html[data-theme="dark"]`. Key files:
 
 - `_includes/head/custom.html` — early inline script reads `localStorage` / `prefers-color-scheme` and sets `data-theme` before CSS loads
-- `_includes/masthead.html` — contains the fixed-position toggle button (`#theme-toggle`)
-- `_includes/scripts.html` — toggle click handler (swaps attribute, saves to `localStorage`, updates icon)
+- `_includes/masthead.html` — contains the fixed-position toggle button (`#theme-toggle`) and its inline `<script>` with the click handler (must be before `main.min.js` to avoid jQuery intercepting clicks)
 - `_sass/_theme.scss` — all CSS custom property definitions + `.theme-toggle` button styles
 
 When adding new colors, use `var(--...)` from `_theme.scss` rather than raw SCSS color variables so dark mode stays consistent.
+
+### Important Caveats
+
+- **compress.html layout** minifies all HTML into one line — never use `//` comments in inline `<script>` blocks (they comment out the rest of the line). Use `/* */` or no comments.
+- **main.min.js** (jQuery + greedy-nav + plugins) intercepts click events — any new interactive elements should register handlers BEFORE `main.min.js` loads (place `<script>` in `masthead.html` or before `scripts.html`), and use `e.stopPropagation()`.
+- **Custom domain**: site is served at `jamydon.online`. The `url` in `_config.yml` must match. CSS/JS use root-relative paths (`/assets/...`) to avoid protocol issues.
 
 ## Deployment
 
