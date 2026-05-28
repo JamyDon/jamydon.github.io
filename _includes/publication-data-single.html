@@ -1,0 +1,6 @@
+{% assign pub = include.pub %}
+
+<div class="musing-item">
+  <p class="musing-item__header"><a href="{{ pub.links[0].url }}" class="musing-item__title">{{ pub.title }}</a>&nbsp;&nbsp;<span class="musing-item__date-badge"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{ pub.venue }}</span></p>
+  <div class="musing-item__excerpt"><p>{{ pub.authors | markdownify | remove: "<p>" | remove: "</p>" }}<br><em>{{ pub.venue_full }}</em><br>{% for link in pub.links %}<a href="{{ link.url }}" class="pub-link pub-link--{{ link.label | downcase }}"><i class="fa {% if link.label == 'Publication' %}fa-book-open{% elsif link.label == 'Preprint' %}fa-file-lines{% elsif link.label == 'Code' %}fa-code{% endif %}"></i>{{ link.label }}</a> {% endfor %}</p></div>
+</div>

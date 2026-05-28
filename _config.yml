@@ -172,9 +172,6 @@ kramdown:
 
 # Collections
 collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
   musings:
     output: true
     permalink: /:collection/:path/
@@ -186,13 +183,6 @@ defaults:
   - scope:
       path: ""
       type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
     values:
       layout: single
       author_profile: true

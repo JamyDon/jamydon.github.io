@@ -318,7 +318,7 @@ html[data-theme="dark"] .musing-item__date-badge {
 }
 
 /* Publication link pills */
-.musing-item__excerpt .pub-link {
+.pub-link {
   display: inline-block;
   padding: 0.2em 0.6em;
   margin: 0.2em 0.25em 0.2em 0;
@@ -352,6 +352,20 @@ html[data-theme="dark"] .musing-item__date-badge {
   background: #27ae60;
 }
 
+.pub-link--scholar {
+  color: #fff;
+  background: #3d6fb4;
+  font-size: $type-size-6;
+  padding: 0.25em 0.7em;
+}
+
+.pub-link--cv {
+  color: #fff;
+  background: #8e44ad;
+  font-size: $type-size-6;
+  padding: 0.25em 0.7em;
+}
+
 html[data-theme="dark"] {
   .pub-link--publication {
     background: #3a7bc8;
@@ -361,5 +375,88 @@ html[data-theme="dark"] {
   }
   .pub-link--code {
     background: #1e8449;
+  }
+  .pub-link--scholar {
+    background: #2e5da8;
+  }
+  .pub-link--cv {
+    background: #7d3c98;
+  }
+  .pub-link--contact {
+    background: #b74a3a;
+  }
+  .pub-link--contact-dark {
+    background: #222;
+  }
+  .contact-notice {
+    border-color: rgba(110, 198, 224, 0.4);
+    background: rgba(110, 198, 224, 0.05);
+  }
+}
+
+/* Contact page */
+.pub-link--contact {
+  color: #fff;
+  background: #d35f4f;
+}
+
+.pub-link--contact-dark {
+  color: #fff;
+  background: #333;
+}
+
+.contact-links {
+  margin: 1em 0;
+}
+
+.contact-list {
+  margin: 1em 0;
+}
+
+.contact-list__item {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.4em 0;
+
+  .pub-link {
+    min-width: 8em;
+    text-align: center;
+  }
+}
+
+.contact-list__detail {
+  font-size: $type-size-5;
+  color: var(--text-color);
+  font-family: $monospace;
+  user-select: all;
+}
+
+.contact-notice {
+  margin-top: 1.5em;
+  padding: 1.2em 1.5em;
+  border: 1px solid rgba(82, 173, 200, 0.4);
+  border-left: 4px solid var(--link-color);
+  border-radius: 4px;
+  background: rgba(82, 173, 200, 0.04);
+  font-size: $type-size-6;
+  line-height: 1.6;
+
+  h3 {
+    margin: 0 0 0.4em;
+    font-size: $type-size-5;
+    color: var(--heading-color);
+  }
+
+  h3 + h3 {
+    margin-top: 1em;
+  }
+
+  p {
+    margin: 0 0 0.6em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
