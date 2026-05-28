@@ -66,8 +66,9 @@ html[data-theme="dark"] {
   color: var(--masthead-link-color);
   border-radius: 4px;
   transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-  z-index: 100;
+  z-index: 999999;
   line-height: 1;
+  pointer-events: auto !important;
 
   &:hover {
     color: var(--masthead-link-color-hover);
