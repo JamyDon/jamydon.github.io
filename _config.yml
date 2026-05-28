@@ -175,6 +175,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  musings:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -193,7 +196,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+  # _musings
+  - scope:
+      path: ""
+      type: musings
+    values:
+      layout: single
+      author_profile: true
 
 
 # Sass/SCSS

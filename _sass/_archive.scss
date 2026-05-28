@@ -243,3 +243,123 @@
     }
   }
 }
+
+
+/*
+   Musings list (compact)
+   ========================================================================== */
+
+.musings-list {
+  margin-top: 0.5em;
+}
+
+.musing-item {
+  padding: 0.4em 0;
+
+  & + .musing-item {
+    margin-top: 0.6em;
+    padding-top: 0.6em;
+    border-top: 1px solid var(--border-color);
+  }
+}
+
+.musing-item__header {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.musing-item__title {
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-5;
+  font-weight: 600;
+  color: var(--link-color);
+  text-decoration: none !important;
+  border-bottom: 1.5px dashed var(--link-color);
+  padding-bottom: 1px;
+
+  &:hover {
+    color: var(--link-color-hover);
+    border-bottom-style: solid;
+  }
+}
+
+.musing-item__date-badge {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0.1em 0.5em;
+  margin-left: 0.4em;
+  font-size: $type-size-7;
+  color: var(--link-color);
+  background: rgba(82, 173, 200, 0.1);
+  border: 1px solid rgba(82, 173, 200, 0.3);
+  border-radius: 3px;
+  white-space: nowrap;
+
+  .fa {
+    font-size: 0.85em;
+  }
+}
+
+html[data-theme="dark"] .musing-item__date-badge {
+  background: rgba(110, 198, 224, 0.1);
+  border-color: rgba(110, 198, 224, 0.3);
+}
+
+.musing-item__excerpt {
+  margin: 0.4em 0 0;
+  font-size: $type-size-6;
+  color: var(--text-color);
+  opacity: 0.75;
+  line-height: 1.4;
+
+  p {
+    margin: 0;
+  }
+}
+
+/* Publication link pills */
+.musing-item__excerpt .pub-link {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  margin: 0.2em 0.25em 0.2em 0;
+  font-size: $type-size-7;
+  font-weight: 500;
+  text-decoration: none !important;
+  border-radius: 4px;
+  transition: opacity 0.2s ease;
+
+  .fa {
+    margin-right: 0.3em;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.pub-link--publication {
+  color: #fff;
+  background: #4a90d9;
+}
+
+.pub-link--preprint {
+  color: #fff;
+  background: #e67e22;
+}
+
+.pub-link--code {
+  color: #fff;
+  background: #27ae60;
+}
+
+html[data-theme="dark"] {
+  .pub-link--publication {
+    background: #3a7bc8;
+  }
+  .pub-link--preprint {
+    background: #d35400;
+  }
+  .pub-link--code {
+    background: #1e8449;
+  }
+}

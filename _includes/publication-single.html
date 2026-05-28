@@ -1,0 +1,12 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="musing-item">
+  <p class="musing-item__header"><a href="{{ base_path }}{{ post.url }}" class="musing-item__title">{{ title }}</a>&nbsp;&nbsp;<span class="musing-item__date-badge"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{ post.date | date: "%Y" }}</span></p>
+  <div class="musing-item__excerpt">{{ post.content }}</div>
+</div>

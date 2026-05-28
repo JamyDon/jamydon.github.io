@@ -5,6 +5,9 @@ main:
 
   - title: "Publications"
     url: /publications/
-    
+
+  - title: "Musings"
+    url: /musings/
+
   - title: "Contact"
     url: /contact/
