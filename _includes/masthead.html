@@ -21,6 +21,6 @@
     </div>
   </div>
 </div>
-<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="(function(){var d=document.documentElement,c=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',c);localStorage.setItem('theme',c);var i=document.querySelector('#theme-toggle i');i.className=c==='dark'?'fas fa-sun':'fas fa-moon'})()">
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode" onclick="var d=document.documentElement,c=d.getAttribute('data-theme')==='dark'?'light':'dark';d.setAttribute('data-theme',c);localStorage.setItem('theme',c);this.querySelector('i').className=c==='dark'?'fas fa-sun':'fas fa-moon'">
   <i class="fas fa-moon"></i>
 </button>
