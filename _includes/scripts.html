@@ -8,7 +8,6 @@
 
   var icon = toggle.querySelector('i');
 
-  // Set initial icon based on current theme
   function updateIcon() {
     var theme = document.documentElement.getAttribute('data-theme');
     if (theme === 'dark') {
@@ -28,7 +27,6 @@
     updateIcon();
   });
 
-  // Listen for OS theme changes (only if no saved preference)
   if (window.matchMedia) {
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
       if (!localStorage.getItem('theme')) {
