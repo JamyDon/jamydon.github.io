@@ -52,7 +52,22 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 3em;
+    padding-right: 0.5em;
     font-weight: 700;
+
+    @include breakpoint($medium) {
+      padding-right: 3em;
+    }
+
+    a {
+      max-width: calc(100vw - 9rem);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      @include breakpoint($medium) {
+        max-width: none;
+      }
+    }
   }
 }

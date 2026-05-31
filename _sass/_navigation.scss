@@ -174,15 +174,25 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  min-width: 0;
+  padding-right: 3.25rem;
   background: var(--greedy-nav-bg);
+
+  @include breakpoint($large) {
+    min-width: 250px;
+    padding-right: 0;
+  }
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     padding: 0.5rem 0;
     color: var(--masthead-link-color);
     text-decoration: none;
+
+    @include breakpoint($medium) {
+      margin: 0 1rem;
+    }
 
     &:hover {
       color: var(--masthead-link-color-hover);

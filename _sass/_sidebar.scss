@@ -155,12 +155,12 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: block;
   vertical-align: middle;
+  margin-top: 0.75rem;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
-  cursor: pointer;
+  cursor: default;
 
   li:last-child {
     a {
@@ -170,6 +170,7 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 0;
   }
 
   button {
@@ -182,21 +183,23 @@
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  position: static;
+  right: auto;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid var(--border-color);
-  border-radius: $border-radius;
-  background: var(--bg-color);
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  z-index: auto;
+  box-shadow: none;
   cursor: default;
 
   @include breakpoint($large) {
-    display: block;
+    display: block !important;
     position: relative;
     margin: 0;
     padding: 0;
@@ -206,7 +209,7 @@
   }
 
   &:before {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -11px;
@@ -216,14 +219,10 @@
     border-width: 0 10px 10px;
     border-color: var(--border-color) transparent;
     z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   &:after {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -10px;
@@ -233,25 +232,26 @@
     border-width: 0 10px 10px;
     border-color: var(--bg-color) transparent;
     z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
   }
 
   a {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
     text-decoration: none;
+
+    @include breakpoint($large) {
+      margin-bottom: 5px;
+      font-size: $type-size-5;
+    }
 
     &:hover {
       text-decoration: underline;
