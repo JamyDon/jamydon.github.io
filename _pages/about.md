@@ -7,58 +7,52 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make LMs better assistants for human in various aspects. I am currently interested in agentic reinforcement learning, LM memory, LM personalization, and financial application of LMs.
+Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make LMs better assistants for human in various aspects.
 
-**I’m actively seeking a PhD opportunity for Fall 2027 (US, SG and HK preferred), and I’d love to connect with like-minded academic researchers.** For an in-depth overview of my background and accomplishments, please feel free to check out **[my CV](http://jamydon.github.io/cv/)** and **[contact me](http://jamydon.github.io/contact/)**.
+<p class="research-chips" aria-label="Research interests"><span class="research-chip">Agentic reinforcement learning</span><span class="research-chip">LM memory</span><span class="research-chip">LM personalization</span><span class="research-chip">Financial LMs</span></p>
 
-Education
-======
+<div class="profile-note">
+  <p><strong>I’m actively seeking a PhD opportunity for Fall 2027 (US, SG and HK preferred), and I’d love to connect with like-minded academic researchers.</strong></p>
+  <p>For an in-depth overview of my background and accomplishments, please feel free to check out <span class="profile-note__actions"><a href="http://jamydon.github.io/cv/" class="pub-link pub-link--cv"><i class="fa fa-file-lines"></i>CV</a> <a href="http://jamydon.github.io/contact/" class="pub-link pub-link--contact"><i class="fa fa-envelope"></i>Contact</a></span></p>
+</div>
 
-* M.S. (Academic) in Computer Science, Peking University, 2024 - Present.
-* B.S. in Computer Science, Peking University, 2020 - 2024.
+## Education
 
-Selected Publications
-======
-[Google Scholar](https://scholar.google.com/citations?user=qQ6PBaMAAAAJ) | [Full List](https://jamydon.github.io/publications/)
+<div class="cv-list cv-list--compact">
+  {% include cv-entry.html date="2024 - Present" title="M.S. (Academic) in Computer Science" meta="Peking University" inline_meta=true inline_meta_prominent=true %}
+  {% include cv-entry.html date="2020 - 2024" title="B.S. in Computer Science" meta="Peking University" inline_meta=true inline_meta_prominent=true %}
+</div>
 
-* [Do Not Step Into the Same River Twice: Learning to Reason from Trial and Error](https://arxiv.org/abs/2510.26109)
-  * **Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu
-  * **ACL 2026** (_Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026_)
- 
-* [Aligning Language Models with Real-time Knowledge Editing](https://arxiv.org/abs/2508.01302)
-  * **Chenming Tang\***, Yutong Yang\*, Kexue Wang, Yunfang Wu. 2025
-  * **ACL 2026** (_Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics, 2026_)
+## Selected Publications
 
-* [Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions](https://aclanthology.org/2025.findings-emnlp.3/)
-  * **Chenming Tang\***, Zhixiang Wang\*, Hao Sun, Yunfang Wu
-  * **Findings of EMNLP 2025** (_Findings of the Association for Computational Linguistics: EMNLP 2025_)
+<p class="section-actions"><a href="https://scholar.google.com/citations?user=qQ6PBaMAAAAJ" class="pub-link pub-link--scholar"><i class="fa fa-graduation-cap"></i>Google Scholar</a> <a href="https://jamydon.github.io/publications/" class="pub-link pub-link--scholar"><i class="fa fa-list"></i>Full List</a></p>
 
-* [SCOI: Syntax-augmented Coverage-based In-context Example Selection for Machine Translation](https://aclanthology.org/2024.emnlp-main.555/)
-  * **Chenming Tang**, Zhixiang Wang, Yunfang Wu
-  * **EMNLP 2024** (_Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, 2024_)
-  
-* [Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction](https://aclanthology.org/2024.naacl-long.99/)
-  * **Chenming Tang**, Fanyi Qu, Yunfang Wu
-  * **NAACL 2024** (_Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), 2024_)
-  
-* [Are Pre-trained Language Models Useful for Model Ensemble in Chinese Grammatical Error Correction?](https://aclanthology.org/2023.acl-short.77/)
-  * **Chenming Tang**, Xiuyu Wu, Yunfang Wu
-  * **ACL 2023** (_Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2023_)
- 
-Internship
-======
-* Research Intern in Tencent HY, July 2025 - Present.
- 
-Honors and Awards
-======
-* **Outstanding Graduate**, Peking University, 2024.
-* **Exceptional Award for Academic Innovation**, Peking University, 2023.
-* **Merit Student**, Peking University, 2023.
-* **First prize**, NLPCC 2023 Shared Task 1 (Chinese Grammatical Error Correction), 2023.
-* **Second place**, CCL 2022 Shared Task 4 (Multi-reference Multi-source Chinese Learner Text Correction), 2022.
+{% assign selected_pubs = site.data.publications | where: "home_selected", true | sort: "home_order" %}
+<div class="musings-list home-publications">
+{% for pub in selected_pubs %}
+  {% include publication-data-single.html pub=pub %}
+{% endfor %}
+</div>
 
-/etc
-=====
-I aim to pursue a career in **academia** rather than industry. I prioritize intellectual freedom over short-term commercial outcomes. I also place a high value on **work-life balance**, as I believe sustainable pace and well-being are essential for durable, creative, and thoughtful research.
+## Internship
 
-When I am not doing research, I enjoy investment, practice the art of [Chinese calligraphy](https://en.wikipedia.org/wiki/Chinese_calligraphy), and listen to music by [Vivaldi](https://en.wikipedia.org/wiki/Antonio_Vivaldi), [Bach](https://en.wikipedia.org/wiki/Johann_Sebastian_Bach), [Brahms](https://en.wikipedia.org/wiki/Johannes_Brahms), [Rachmaninoff](https://en.wikipedia.org/wiki/Sergei_Rachmaninoff), _et al._ One of my favorite music works these months is [Symphony No. 4 by Brahms](https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)).
+<div class="cv-list cv-list--compact">
+  {% include cv-entry.html date="Jul 2025 - Present" title="Research Intern" meta="Tencent HY" inline_meta=true inline_meta_prominent=true %}
+</div>
+
+## Honors and Awards
+
+<div class="cv-list cv-list--compact">
+  {% include cv-entry.html date="2024" title="Outstanding Graduate" meta="Peking University" inline_meta=true inline_meta_plain=true %}
+  {% include cv-entry.html date="2023" title="Exceptional Award for Academic Innovation" meta="Peking University" inline_meta=true inline_meta_plain=true %}
+  {% include cv-entry.html date="2023" title="Merit Student" meta="Peking University" inline_meta=true inline_meta_plain=true %}
+  {% include cv-entry.html date="2023" title="First prize" meta="NLPCC 2023 Shared Task 1 (Chinese Grammatical Error Correction)" inline_meta=true inline_meta_plain=true %}
+  {% include cv-entry.html date="2022" title="Second place" meta="CCL 2022 Shared Task 4 (Multi-reference Multi-source Chinese Learner Text Correction)" inline_meta=true inline_meta_plain=true %}
+</div>
+
+## /etc
+
+<div class="profile-note profile-note--quiet">
+  <p>I aim to pursue a career in <strong>academia</strong> rather than industry. I prioritize intellectual freedom over short-term commercial outcomes. I also place a high value on <strong>work-life balance</strong>, as I believe sustainable pace and well-being are essential for durable, creative, and thoughtful research.</p>
+  <p>When I am not doing research, I enjoy investment, practice the art of <a href="https://en.wikipedia.org/wiki/Chinese_calligraphy">Chinese calligraphy</a>, and listen to music by <a href="https://en.wikipedia.org/wiki/Antonio_Vivaldi">Vivaldi</a>, <a href="https://en.wikipedia.org/wiki/Johann_Sebastian_Bach">Bach</a>, <a href="https://en.wikipedia.org/wiki/Johannes_Brahms">Brahms</a>, <a href="https://en.wikipedia.org/wiki/Sergei_Rachmaninoff">Rachmaninoff</a>, <em>et al.</em> One of my favorite music works these months is <a href="https://en.wikipedia.org/wiki/Symphony_No._4_(Brahms)">Symphony No. 4 by Brahms</a>.</p>
+</div>

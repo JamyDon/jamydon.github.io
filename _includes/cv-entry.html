@@ -1,0 +1,12 @@
+{% assign meta = include.meta | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign detail = include.detail | markdownify | remove: "<p>" | remove: "</p>" %}
+
+<div class="cv-entry{% if include.compact %} cv-entry--compact{% endif %}">
+  <p class="cv-entry__header">
+    {% if include.date %}<span class="cv-entry__date"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;{{ include.date }}</span>{% endif %}
+    <span class="cv-entry__title">{{ include.title }}</span>
+    {% if include.inline_meta and include.meta %}<span class="cv-entry__inline-meta{% if include.inline_meta_prominent %} cv-entry__inline-meta--prominent{% endif %}{% if include.inline_meta_plain %} cv-entry__inline-meta--plain{% endif %}">{{ meta }}</span>{% endif %}
+  </p>
+  {% unless include.inline_meta %}{% if include.meta %}<p class="cv-entry__meta">{{ meta }}</p>{% endif %}{% endunless %}
+  {% if include.detail %}<p class="cv-entry__detail">{{ detail }}</p>{% endif %}
+</div>

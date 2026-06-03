@@ -6,6 +6,8 @@
   venue: "arXiv 2026"
   venue_full: "arXiv preprint arXiv:2601.08310"
   date: 2026-01-13
+  cv_group: preprint
+  cv_order: 1
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2601.08310
@@ -15,6 +17,10 @@
   venue: "ACL 2026"
   venue_full: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
   date: 2025-10-30
+  home_selected: true
+  home_order: 1
+  cv_group: refereed
+  cv_order: 1
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2510.26109
@@ -26,6 +32,8 @@
   venue: "ACL 2026 Findings"
   venue_full: "Findings of the Association for Computational Linguistics: ACL 2026"
   date: 2025-10-30
+  cv_group: refereed
+  cv_order: 3
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2510.26519
@@ -37,6 +45,10 @@
   venue: "ACL 2026"
   venue_full: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
   date: 2025-08-02
+  home_selected: true
+  home_order: 2
+  cv_group: refereed
+  cv_order: 2
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2508.01302
@@ -48,6 +60,10 @@
   venue: "EMNLP 2025 Findings"
   venue_full: "Findings of the Association for Computational Linguistics: EMNLP 2025"
   date: 2025-11-05
+  home_selected: true
+  home_order: 3
+  cv_group: refereed
+  cv_order: 4
   links:
     - label: Publication
       url: https://aclanthology.org/2025.findings-emnlp.3/
@@ -61,6 +77,8 @@
   venue: "arXiv 2025"
   venue_full: "arXiv preprint arXiv:2502.10634"
   date: 2025-02-15
+  cv_group: preprint
+  cv_order: 2
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2502.10634
@@ -70,6 +88,10 @@
   venue: "EMNLP 2024"
   venue_full: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
   date: 2024-11-12
+  home_selected: true
+  home_order: 4
+  cv_group: refereed
+  cv_order: 5
   links:
     - label: Publication
       url: https://aclanthology.org/2024.emnlp-main.555/
@@ -83,6 +105,10 @@
   venue: "NAACL 2024"
   venue_full: "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
   date: 2024-06-17
+  home_selected: true
+  home_order: 5
+  cv_group: refereed
+  cv_order: 6
   links:
     - label: Publication
       url: https://aclanthology.org/2024.naacl-long.99/
@@ -96,6 +122,10 @@
   venue: "ACL 2023"
   venue_full: "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)"
   date: 2023-07-10
+  home_selected: true
+  home_order: 6
+  cv_group: refereed
+  cv_order: 7
   links:
     - label: Publication
       url: https://aclanthology.org/2023.acl-short.77/
@@ -109,6 +139,8 @@
   venue: "arXiv 2023"
   venue_full: "arXiv preprint arXiv:2307.03972"
   date: 2023-07-08
+  cv_group: preprint
+  cv_order: 3
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2307.03972
