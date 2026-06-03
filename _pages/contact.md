@@ -4,7 +4,9 @@ permalink: /contact/
 author_profile: true
 ---
 
-My official name is **Chenming Tang**, while you can also call me my English name **Jamy Don**.
+My official name is **Chenming Tang**, while you can also call me my English name **Jamy Don** if you feel it difficult to pronounce my official name smoothly.
+
+**I am actively seeking PhD positions for Fall 2027 in the US 🇺🇸, Singapore 🇸🇬, and Hong Kong 🇭🇰.** Anyone interested is welcomed to contact me.
 
 <div class="contact-list">
   <div class="contact-list__item">
