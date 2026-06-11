@@ -7,7 +7,7 @@ Personal academic website for Chenming Tang at jamydon.online. Jekyll + Academic
 Requires **Ruby 3.x** (not 4.x). Changes to `_config.yml` require server restart.
 
 ```bash
-export PATH="/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
+export PATH="/usr/local/opt/ruby@3.3/bin:/usr/local/lib/ruby/gems/3.3.0/bin:$PATH"
 bundle exec jekyll serve -l -H localhost   # http://127.0.0.1:4000/
 ```
 
@@ -28,6 +28,10 @@ bundle exec jekyll serve -l -H localhost   # http://127.0.0.1:4000/
   venue: "ACL 2026"                       # badge text
   venue_full: "Proceedings of the 64th..."
   date: YYYY-MM-DD
+  cv_group: refereed | preprint           # which CV section
+  cv_order: 1                             # sort order within CV group
+  home_selected: true                     # (optional) show on home page
+  home_order: 1                           # (optional) sort order on home page
   links:
     - { label: Publication, url: "..." }  # first link = title href
     - { label: Preprint, url: "..." }
