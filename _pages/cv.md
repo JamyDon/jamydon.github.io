@@ -39,10 +39,9 @@ redirect_from:
 ## Research Experience
 
 <div class="cv-list">
-  {% include cv-entry.html date="2025 - Present" title="Reinforcement Fine-tuning of Language Models (LMs)" meta="Tencent & Peking University" detail="Advised by Dr. Weijie Liu & Assoc. Prof. Yunfang Wu." %}
-  {% include cv-entry.html date="2024 - 2025" title="Real-time Knowledge Editing for LMs" meta="Peking University" detail="Advised by Assoc. Prof. Yunfang Wu." %}
-  {% include cv-entry.html date="2023 - 2024" title="Prompting and In-context Learning (ICL) for LMs" meta="Peking University" detail="Advised by Assoc. Prof. Yunfang Wu." %}
-  {% include cv-entry.html date="2022 - 2023" title="Grammatical Error Correction (GEC)" meta="Peking University" detail="Advised by Assoc. Prof. Yunfang Wu." %}
+  {% include cv-entry.html date="2026 - Present" title="University of Illinois Urbana-Champaign" meta="Advisor: Prof. Jiawei Han" detail="Agent Memory" %}
+  {% include cv-entry.html date="2025 - 2026" title="Tencent & Peking University" meta="Advisor: Dr. Weijie Liu & Assoc. Prof. Yunfang Wu" detail="Agentic Reinforcement Learning · Reasoning-oriented Reinforcement Fine-tuning" %}
+  {% include cv-entry.html date="2022 - 2025" title="Peking University" meta="Advisor: Assoc. Prof. Yunfang Wu" detail="Knowledge Editing · Prompting and In-context Learning · Grammatical Error Correction" %}
 </div>
 
 ## Honors and Awards

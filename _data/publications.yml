@@ -7,10 +7,43 @@
   venue_full: "arXiv preprint arXiv:2601.08310"
   date: 2026-01-13
   cv_group: preprint
-  cv_order: 1
+  cv_order: 4
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2601.08310
+
+- title: "Democratizing Tool Learning with Environments Fully Simulated by a Free 8B Language Model"
+  authors: "**Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Junqiang Zheng, Saiyong Yang, Yunfang Wu"
+  venue: "arXiv 2026"
+  venue_full: "arXiv preprint arXiv:2604.17739"
+  date: 2026-04-28
+  cv_group: preprint
+  cv_order: 1
+  links:
+    - label: Preprint
+      url: https://arxiv.org/abs/2604.17739
+
+- title: "ADWIN: Adaptive Windows for Horizon-Aware On-Policy Distillation"
+  authors: "Kun Liang, **Chenming Tang**, Clive Bai, Weijie Liu, Saiyong Yang, Yunfang Wu"
+  venue: "arXiv 2026"
+  venue_full: "arXiv preprint arXiv:2605.28396"
+  date: 2026-05-29
+  cv_group: preprint
+  cv_order: 2
+  links:
+    - label: Preprint
+      url: https://arxiv.org/abs/2605.28396
+
+- title: "RLVR Datasets and Where to Find Them: Tracing Data Lineage for Better Training Data"
+  authors: "Hsiu-Yuan Huang, Weijie Liu, **Chenming Tang**, Sanwoo Lee, Kai Yang, Yangkun Chen, Saiyong Yang, Yunfang Wu"
+  venue: "arXiv 2026"
+  venue_full: "arXiv preprint arXiv:2605.26971"
+  date: 2026-05-28
+  cv_group: preprint
+  cv_order: 3
+  links:
+    - label: Preprint
+      url: https://arxiv.org/abs/2605.26971
 
 - title: "Do Not Step Into the Same River Twice: Learning to Reason from Trial and Error"
   authors: "**Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu"
@@ -78,7 +111,7 @@
   venue_full: "arXiv preprint arXiv:2502.10634"
   date: 2025-02-15
   cv_group: preprint
-  cv_order: 2
+  cv_order: 5
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2502.10634
@@ -140,7 +173,7 @@
   venue_full: "arXiv preprint arXiv:2307.03972"
   date: 2023-07-08
   cv_group: preprint
-  cv_order: 3
+  cv_order: 6
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2307.03972

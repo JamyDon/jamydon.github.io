@@ -37,7 +37,7 @@ Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pk
 ## Internship
 
 <div class="cv-list cv-list--compact">
-  {% include cv-entry.html date="Jul 2025 - Present" title="Research Intern" meta="Tencent HY" inline_meta=true inline_meta_prominent=true %}
+  {% include cv-entry.html date="Jul 2025 - Jun 2026" title="Research Intern" meta="Tencent HY" inline_meta=true inline_meta_prominent=true %}
 </div>
 
 ## Honors and Awards
