@@ -22,6 +22,8 @@
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2604.17739
+    - label: Code
+      url: https://anonymous.4open.science/r/TRUSTEE/README.md
 
 - title: "ADWIN: Adaptive Windows for Horizon-Aware On-Policy Distillation"
   authors: "Kun Liang, **Chenming Tang**, Clive Bai, Weijie Liu, Saiyong Yang, Yunfang Wu"
@@ -49,44 +51,50 @@
   authors: "**Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu"
   venue: "ACL 2026"
   venue_full: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
-  date: 2025-10-30
+  date: 2026-07-05
   home_selected: true
   home_order: 1
   cv_group: refereed
   cv_order: 1
   links:
+    - label: Publication
+      url: https://aclanthology.org/2026.acl-long.363/
     - label: Preprint
       url: https://arxiv.org/abs/2510.26109
     - label: Code
-      url: https://anonymous.4open.science/r/Learning-from-Trial-and-Error
+      url: https://github.com/JamyDon/LTE
 
 - title: "Think Outside the Policy: In-Context Steered Policy Optimization"
   authors: "Hsiu-Yuan Huang\\*, **Chenming Tang\\***, Weijie Liu, Clive Bai, Saiyong Yang, Yunfang Wu"
   venue: "ACL 2026 Findings"
   venue_full: "Findings of the Association for Computational Linguistics: ACL 2026"
-  date: 2025-10-30
+  date: 2026-07-05
   cv_group: refereed
   cv_order: 3
   links:
+    - label: Publication
+      url: https://aclanthology.org/2026.findings-acl.132/
     - label: Preprint
       url: https://arxiv.org/abs/2510.26519
     - label: Code
-      url: https://anonymous.4open.science/r/ICPO
+      url: https://github.com/Celine-hxy/ICPO
 
 - title: "Aligning Language Models with Real-time Knowledge Editing"
   authors: "**Chenming Tang\\***, Yutong Yang\\*, Kexue Wang, Yunfang Wu"
   venue: "ACL 2026"
   venue_full: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
-  date: 2025-08-02
+  date: 2026-07-05
   home_selected: true
   home_order: 2
   cv_group: refereed
   cv_order: 2
   links:
+    - label: Publication
+      url: https://aclanthology.org/2026.acl-long.14/
     - label: Preprint
       url: https://arxiv.org/abs/2508.01302
     - label: Code
-      url: https://anonymous.4open.science/r/CRAFT-KEDAS
+      url: https://github.com/JamyDon/CRAFT-KEDAS
 
 - title: "Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions"
   authors: "**Chenming Tang\\***, Zhixiang Wang\\*, Hao Sun, Yunfang Wu"
