@@ -39,7 +39,7 @@ redirect_from:
 ## Research Experience
 
 <div class="cv-list">
-  {% include cv-entry.html date="2026 - Present" title="University of Illinois Urbana-Champaign" meta="Advisor: Prof. Jiawei Han" detail="Agent Memory" %}
+  {% include cv-entry.html date="2026 - 2026" title="University of Illinois Urbana-Champaign" meta="Advisor: Prof. Jiawei Han" detail="Agent Memory · Retrieval-augmented Generation" %}
   {% include cv-entry.html date="2025 - 2026" title="Tencent & Peking University" meta="Advisor: Dr. Weijie Liu & Assoc. Prof. Yunfang Wu" detail="Agentic Reinforcement Learning · Reasoning-oriented Reinforcement Fine-tuning" %}
   {% include cv-entry.html date="2022 - 2025" title="Peking University" meta="Advisor: Assoc. Prof. Yunfang Wu" detail="Knowledge Editing · Prompting and In-context Learning · Grammatical Error Correction" %}
 </div>
