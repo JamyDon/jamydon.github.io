@@ -9,7 +9,7 @@ redirect_from:
 
 Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make NLP models better assistants for human in various aspects.
 
-<p class="research-chips" aria-label="Research interests"><span class="research-chip">Agentic reinforcement learning</span><span class="research-chip">LM memory</span><span class="research-chip">LM personalization</span><span class="research-chip">Financial LMs</span></p>
+<p class="research-chips" aria-label="Research interests"><span class="research-chip">Agent Memory</span><span class="research-chip">RAG</span><span class="research-chip">Personalization</span><span class="research-chip">NLP Applications</span></p>
 
 <div class="profile-note">
   <p><strong>I’m actively seeking a PhD opportunity for Fall 2027 (US, SG and HK preferred), and I’d love to connect with like-minded academic researchers.</strong></p>
