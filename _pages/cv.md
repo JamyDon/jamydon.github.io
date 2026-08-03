@@ -12,7 +12,7 @@ redirect_from:
 ## Education
 
 <div class="cv-list">
-  {% include cv-entry.html date="2024 - 2027" title="M.S. (Academic) in Computer Science" meta="Peking University" detail="Advisor: Assoc. Prof. Yunfang Wu" %}
+  {% include cv-entry.html date="2024 - 2027" title="M.S. (Academic) in Computer Science" meta="Peking University" detail="Advisor: Prof. Yunfang Wu" %}
   {% include cv-entry.html date="2020 - 2024" title="B.S. in Computer Science" meta="Peking University" detail="GPA: 3.72/4.00" %}
 </div>
 
@@ -40,8 +40,8 @@ redirect_from:
 
 <div class="cv-list">
   {% include cv-entry.html date="2026 - 2026" title="University of Illinois Urbana-Champaign" meta="Advisor: Prof. Jiawei Han" detail="Agent Memory · Retrieval-augmented Generation" %}
-  {% include cv-entry.html date="2025 - 2026" title="Tencent & Peking University" meta="Advisor: Dr. Weijie Liu & Assoc. Prof. Yunfang Wu" detail="Agentic Reinforcement Learning · Reasoning-oriented Reinforcement Fine-tuning" %}
-  {% include cv-entry.html date="2022 - 2025" title="Peking University" meta="Advisor: Assoc. Prof. Yunfang Wu" detail="Knowledge Editing · Prompting and In-context Learning · Grammatical Error Correction" %}
+  {% include cv-entry.html date="2025 - 2026" title="Tencent & Peking University" meta="Advisor: Dr. Weijie Liu & Prof. Yunfang Wu" detail="Agentic Reinforcement Learning · Reasoning-oriented Reinforcement Fine-tuning" %}
+  {% include cv-entry.html date="2022 - 2025" title="Peking University" meta="Advisor: Prof. Yunfang Wu" detail="Knowledge Editing · Prompting and In-context Learning · Grammatical Error Correction" %}
 </div>
 
 ## Honors and Awards
@@ -56,7 +56,7 @@ redirect_from:
 ## Teaching
 
 <div class="cv-list cv-list--compact">
-  {% include cv-entry.html date="Spring 2025" title="Teaching Assistant, Introduction to Computing (C)" meta="Peking University" detail="Instructor: Prof. Zhifang Sui & Assoc. Prof. Yunfang Wu" %}
+  {% include cv-entry.html date="Spring 2025" title="Teaching Assistant, Introduction to Computing (C)" meta="Peking University" detail="Instructor: Prof. Zhifang Sui & Prof. Yunfang Wu" %}
 </div>
 
 ## Standardized Tests
