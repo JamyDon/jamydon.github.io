@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make LMs better assistants for human in various aspects.
+Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make NLP models better assistants for human in various aspects.
 
 <p class="research-chips" aria-label="Research interests"><span class="research-chip">Agentic reinforcement learning</span><span class="research-chip">LM memory</span><span class="research-chip">LM personalization</span><span class="research-chip">Financial LMs</span></p>
 
@@ -19,7 +19,7 @@ Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pk
 ## Education
 
 <div class="cv-list cv-list--compact">
-  {% include cv-entry.html date="2024 - Present" title="M.S. (Academic) in Computer Science" meta="Peking University" inline_meta=true inline_meta_prominent=true %}
+  {% include cv-entry.html date="2024 - 2027" title="M.S. (Academic) in Computer Science" meta="Peking University" inline_meta=true inline_meta_prominent=true %}
   {% include cv-entry.html date="2020 - 2024" title="B.S. in Computer Science" meta="Peking University" inline_meta=true inline_meta_prominent=true %}
 </div>
 
@@ -37,7 +37,7 @@ Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pk
 ## Internship
 
 <div class="cv-list cv-list--compact">
-  {% include cv-entry.html date="Jul 2025 - Jun 2026" title="Research Intern" meta="Tencent HY" inline_meta=true inline_meta_prominent=true %}
+  {% include cv-entry.html date="Jul 2025 - May 2026" title="Research Intern" meta="Tencent HY" inline_meta=true inline_meta_prominent=true %}
 </div>
 
 ## Honors and Awards
