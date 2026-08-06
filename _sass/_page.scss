@@ -399,3 +399,104 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Bilingual musing presentation */
+.page__title--translated {
+  .page__title-translation {
+    margin-left: 0.3em;
+    color: mix(#fff, $text-color, 36%);
+    font-size: 0.82em;
+    font-weight: normal;
+  }
+}
+
+.bilingual-musing {
+  margin-top: 1.5rem;
+}
+
+.bilingual-musing__mode {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.bilingual-musing__toggle {
+  display: inline-flex;
+  margin-bottom: 2rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  color: var(--link-color);
+  cursor: pointer;
+  font-size: $type-size-7;
+  line-height: 1.2;
+}
+
+.bilingual-musing__toggle-to-zh {
+  display: none;
+}
+
+.bilingual-musing__panels {
+  display: block;
+}
+
+.bilingual-musing__panel {
+  p {
+    margin-bottom: 1.35em;
+  }
+}
+
+.bilingual-musing__panel--en {
+  display: none;
+}
+
+.bilingual-musing__language-label {
+  margin-bottom: 1.4rem !important;
+  color: mix(#fff, $text-color, 36%);
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#musing-language-en:checked ~ .bilingual-musing__toggle {
+  border-color: var(--border-color);
+  color: mix(#fff, $text-color, 28%);
+}
+
+#musing-language-en:checked ~ .bilingual-musing__toggle .bilingual-musing__toggle-to-en {
+  display: none;
+}
+
+#musing-language-en:checked ~ .bilingual-musing__toggle .bilingual-musing__toggle-to-zh {
+  display: inline;
+}
+
+#musing-language-en:checked ~ .bilingual-musing__panels .bilingual-musing__panel--zh {
+  display: none;
+}
+
+#musing-language-en:checked ~ .bilingual-musing__panels .bilingual-musing__panel--en {
+  display: block;
+}
+
+.bilingual-musing__translation-badge {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.1rem 0.35rem;
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  color: mix(#fff, $text-color, 28%);
+  font-size: 0.8em;
+  font-weight: normal;
+  text-transform: none;
+  vertical-align: 0.1em;
+}
+
+@include breakpoint(max-width $medium) {
+  .bilingual-musing__toggle {
+    margin-bottom: 1.5rem;
+  }
+}

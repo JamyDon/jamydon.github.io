@@ -9,6 +9,8 @@ author_profile: true
 
 <div class="musings-list">
 {% for post in site.musings reversed %}
-  {% include musing-single.html %}
+  {% unless post.translation_companion %}
+    {% include musing-single.html %}
+  {% endunless %}
 {% endfor %}
 </div>
