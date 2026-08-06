@@ -16,3 +16,9 @@ package-lock.json
 
 # Claude Code
 .claude/
+
+# Generated Sass cache
+.sass-cache/
+
+# Browser-saved research page
+files/Camus’s fundamental philosophical question - 搜索.html
