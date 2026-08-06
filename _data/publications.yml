@@ -10,6 +10,8 @@
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2608.00658
+    - label: Code
+      url: https://github.com/JamyDon/SANE
 
 - title: "ADWIN: Adaptive Windows for Horizon-Aware On-Policy Distillation"
   authors: "Kun Liang, **Chenming Tang**, Clive Bai, Weijie Liu, Saiyong Yang, Yunfang Wu"
