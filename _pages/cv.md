@@ -19,7 +19,7 @@ redirect_from:
 ## Publications
 
 <h3 class="cv-subsection-title">Refereed Publications</h3>
-{% assign refereed_pubs = site.data.publications | where: "cv_group", "refereed" | sort: "cv_order" %}
+{% assign refereed_pubs = site.data.publications | where: "cv_group", "refereed" | sort: "date" | reverse %}
 <div class="musings-list cv-publications-list">
 {% for pub in refereed_pubs %}
   {% include cv-publication-single.html pub=pub %}
@@ -27,7 +27,7 @@ redirect_from:
 </div>
 
 <h3 class="cv-subsection-title">Preprints</h3>
-{% assign preprint_pubs = site.data.publications | where: "cv_group", "preprint" | sort: "cv_order" %}
+{% assign preprint_pubs = site.data.publications | where: "cv_group", "preprint" | sort: "date" | reverse %}
 <div class="musings-list cv-publications-list">
 {% for pub in preprint_pubs %}
   {% include cv-publication-single.html pub=pub %}

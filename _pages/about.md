@@ -27,7 +27,7 @@ Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pk
 
 <p class="section-actions"><a href="https://scholar.google.com/citations?user=qQ6PBaMAAAAJ" class="pub-link pub-link--scholar"><i class="fa fa-graduation-cap"></i>Google Scholar</a> <a href="https://jamydon.github.io/publications/" class="pub-link pub-link--scholar"><i class="fa fa-list"></i>Full List</a></p>
 
-{% assign selected_pubs = site.data.publications | where: "home_selected", true | sort: "home_order" %}
+{% assign selected_pubs = site.data.publications | where: "home_selected", true | sort: "date" | reverse %}
 <div class="musings-list home-publications">
 {% for pub in selected_pubs %}
   {% include publication-data-single.html pub=pub %}

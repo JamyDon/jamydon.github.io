@@ -27,11 +27,9 @@ bundle exec jekyll serve -l -H localhost   # http://127.0.0.1:4000/
   authors: "**Chenming Tang**, Coauthor"  # markdown bold for self
   venue: "ACL 2026"                       # badge text
   venue_full: "Proceedings of the 64th..."
-  date: YYYY-MM-DD
+  date: YYYY-MM-DD                         # publication date; newest appears first
   cv_group: refereed | preprint           # which CV section
-  cv_order: 1                             # sort order within CV group
   home_selected: true                     # (optional) show on home page
-  home_order: 1                           # (optional) sort order on home page
   links:
     - { label: Publication, url: "..." }  # first link = title href
     - { label: Preprint, url: "..." }
