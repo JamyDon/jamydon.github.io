@@ -15,10 +15,10 @@
 
 - title: "ADWIN: Adaptive Windows for Horizon-Aware On-Policy Distillation"
   authors: "Kun Liang, **Chenming Tang**, Clive Bai, Weijie Liu, Saiyong Yang, Yunfang Wu"
-  venue: "arXiv 2026"
-  venue_full: "arXiv preprint arXiv:2605.28396"
+  venue: "EMNLP 2026"
+  venue_full: "The 2026 Conference on Empirical Methods in Natural Language Processing"
   date: 2026-05-29
-  cv_group: preprint
+  cv_group: refereed
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2605.28396
@@ -35,10 +35,11 @@
 
 - title: "Democratizing Tool Learning with Environments Fully Simulated by a Free 8B Language Model"
   authors: "**Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Junqiang Zheng, Saiyong Yang, Yunfang Wu"
-  venue: "arXiv 2026"
-  venue_full: "arXiv preprint arXiv:2604.17739"
+  venue: "NeurIPS 2026"
+  venue_full: "The Fortieth Annual Conference on Neural Information Processing Systems"
   date: 2026-04-28
-  cv_group: preprint
+  home_selected: true
+  cv_group: refereed
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2604.17739
@@ -91,10 +92,10 @@
 
 - title: "ORBIT: On-policy Exploration-Exploitation for Controllable Multi-Budget Reasoning"
   authors: "Kun Liang, Clive Bai, Xin Xu, **Chenming Tang**, Sanwoo Lee, Weijie Liu, Saiyong Yang, Yunfang Wu"
-  venue: "arXiv 2026"
-  venue_full: "arXiv preprint arXiv:2601.08310"
+  venue: "EMNLP 2026 Findings"
+  venue_full: "Findings of the Association for Computational Linguistics: EMNLP 2026"
   date: 2026-01-13
-  cv_group: preprint
+  cv_group: refereed
   links:
     - label: Preprint
       url: https://arxiv.org/abs/2601.08310
