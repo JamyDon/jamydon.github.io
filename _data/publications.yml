@@ -17,7 +17,7 @@
   authors: "Kun Liang, **Chenming Tang**, Clive Bai, Weijie Liu, Saiyong Yang, Yunfang Wu"
   venue: "EMNLP 2026"
   venue_full: "The 2026 Conference on Empirical Methods in Natural Language Processing"
-  date: 2026-05-29
+  date: 2026-10-24
   cv_group: refereed
   links:
     - label: Preprint
@@ -37,7 +37,7 @@
   authors: "**Chenming Tang**, Hsiu-Yuan Huang, Weijie Liu, Junqiang Zheng, Saiyong Yang, Yunfang Wu"
   venue: "NeurIPS 2026"
   venue_full: "The Fortieth Annual Conference on Neural Information Processing Systems"
-  date: 2026-04-28
+  date: 2026-12-06
   home_selected: true
   cv_group: refereed
   links:
@@ -94,7 +94,7 @@
   authors: "Kun Liang, Clive Bai, Xin Xu, **Chenming Tang**, Sanwoo Lee, Weijie Liu, Saiyong Yang, Yunfang Wu"
   venue: "EMNLP 2026 Findings"
   venue_full: "Findings of the Association for Computational Linguistics: EMNLP 2026"
-  date: 2026-01-13
+  date: 2026-10-24
   cv_group: refereed
   links:
     - label: Preprint

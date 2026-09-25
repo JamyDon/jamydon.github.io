@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<p class="cv-actions"><a href="https://jamydon.github.io/files/CV.pdf" class="pub-link pub-link--cv"><i class="fa fa-download"></i>Download PDF</a> <span class="musing-item__date-badge"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Updated Aug 2026</span></p>
+<p class="cv-actions"><a href="https://jamydon.github.io/files/CV.pdf" class="pub-link pub-link--cv"><i class="fa fa-download"></i>Download PDF</a> <span class="musing-item__date-badge"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Updated Sept 2026</span></p>
 
 ## Education
 
@@ -47,8 +47,11 @@ redirect_from:
 ## Honors and Awards
 
 <div class="cv-list cv-list--compact">
+  {% include cv-entry.html date="2026" title="Ubiquant Scholarship" meta="Ubiquant" %}
+  {% include cv-entry.html date="2026" title="Merit Student" meta="Peking University" %}
   {% include cv-entry.html date="2024" title="Outstanding Graduate" meta="Peking University" %}
-  {% include cv-entry.html date="2023" title="Exceptional Award for Academic Innovation" meta="Peking University" %}
+  {% include cv-entry.html date="2023" title="Exceptional Award for Academic Innovation (top 1%)" meta="Peking University" %}
+  {% include cv-entry.html date="2023" title="Merit Student" meta="Peking University" %}
   {% include cv-entry.html date="2023" title="First prize" meta="The 12th CCF International Conference on Natural Language Processing and Chinese Computing (NLPCC 2023) Shared Task 1: Chinese Grammatical Error Correction" %}
   {% include cv-entry.html date="2022" title="Second place" meta="The 21st China National Conference on Computational Linguistics (CCL 2022) Shared Task Track 4: Multi-reference Multi-source Chinese Learner Text Correction" %}
 </div>

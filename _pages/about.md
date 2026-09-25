@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make NLP models better assistants for human in various aspects.
+Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pku.edu.cn/English/Home.htm) at [Peking University](https://english.pku.edu.cn/), advised by Prof. [Yunfang Wu](https://cs.pku.edu.cn/info/1083/1705.htm). Before that, I got my Bachelor's degree at [School of EECS](http://eecs.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). My research spans various facets of NLP and generally aims to make NLP models better assistants for human through cost-friendly approaches.
 
-<p class="research-chips" aria-label="Research interests"><span class="research-chip">Agent Memory</span><span class="research-chip">RAG</span><span class="research-chip">Personalization</span><span class="research-chip">NLP Applications</span></p>
+<p class="research-chips" aria-label="Research interests"><span class="research-chip">RAG</span><span class="research-chip">Memory</span><span class="research-chip">Personalization</span><span class="research-chip">NLP Applications</span></p>
 
 <div class="profile-note">
   <p><strong>I’m actively seeking a PhD opportunity for Fall 2027 (US, SG and HK preferred), and I’d love to connect with like-minded academic researchers.</strong></p>
@@ -43,11 +43,9 @@ Hi, I'm Chenming Tang – a Master's student in [Computer Science](https://cs.pk
 ## Honors and Awards
 
 <div class="cv-list cv-list--compact">
+  {% include cv-entry.html date="2026" title="Ubiquant Scholarship" meta="Ubiquant" inline_meta=true inline_meta_plain=true %}
   {% include cv-entry.html date="2024" title="Outstanding Graduate" meta="Peking University" inline_meta=true inline_meta_plain=true %}
-  {% include cv-entry.html date="2023" title="Exceptional Award for Academic Innovation" meta="Peking University" inline_meta=true inline_meta_plain=true %}
-  {% include cv-entry.html date="2023" title="Merit Student" meta="Peking University" inline_meta=true inline_meta_plain=true %}
-  {% include cv-entry.html date="2023" title="First prize" meta="NLPCC 2023 Shared Task 1 (Chinese Grammatical Error Correction)" inline_meta=true inline_meta_plain=true %}
-  {% include cv-entry.html date="2022" title="Second place" meta="CCL 2022 Shared Task 4 (Multi-reference Multi-source Chinese Learner Text Correction)" inline_meta=true inline_meta_plain=true %}
+  {% include cv-entry.html date="2023" title="Exceptional Award for Academic Innovation (top 1%)" meta="Peking University" inline_meta=true inline_meta_plain=true %}
 </div>
 
 ## /etc
